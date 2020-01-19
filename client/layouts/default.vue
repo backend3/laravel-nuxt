@@ -1,19 +1,5 @@
-<template>
-  <div class="layout">
-    <navbar />
+<template lang="html" src="./default.html" />
 
-    <div class="container mt-4">
-      <nuxt />
-    </div>
-  </div>
-</template>
+<script lang="js" src="./default.js"> </script>
 
-<script>
-import Navbar from '~/components/Navbar'
-
-export default {
-  components: {
-    Navbar
-  }
-}
-</script>
+<style scoped lang="scss" src="./default.scss"> </style>
