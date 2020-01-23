@@ -36,7 +36,22 @@ module.exports = {
   css: [
     { src: '~assets/sass/app.scss', lang: 'scss' }
   ],
+  script: [
+    // { src: '~assets/js/jquery-3.2.1.min.js' },
+    // { src: '~assets/styles/bootstrap-4.1.2/popper.js' },
+    // { src: '~assets/styles/bootstrap-4.1.2/bootstrap.min.js' },
+    // { src: '~assets/plugins/greensock/TweenMax.min.js' },
+    // { src: '~assets/plugins/greensock/TimelineMax.min.js' },
+    // { src: '~assets/plugins/scrollmagic/ScrollMagic.min.js' },
+    // { src: '~assets/plugins/greensock/animation.gsap.min.js' },
+    // { src: '~assets/plugins/greensock/ScrollToPlugin.min.js' },
+    // { src: '~assets/plugins/OwlCarousel2-2.2.1/owl.carousel.js' },
+    // { src: '~assets/plugins/easing/easing.js' },
+    // { src: '~assets/plugins/progressbar/progressbar.min.js' },
+    // { src: '~assets/plugins/parallax-js-master/parallax.min.js' },
+    // { src: '~assets/js/custom.js' }
 
+  ],
   plugins: [
     '~components/global',
     '~plugins/i18n',

@@ -1,4 +1,4 @@
-<template lang="html" src="./welcome.html" />
+<template src="./welcome.html" />
 
 <script lang="js" src="./welcome.js"> </script>
 

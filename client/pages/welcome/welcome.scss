@@ -1,17 +1,52 @@
-.top-right {
+@import 'node_modules/bootstrap/scss/bootstrap';
+@import 'node_modules/bootstrap-vue/src/index.scss';
+@import '../../assets/littlecloset/plugins/font-awesome-4.7.0/css/font-awesome.min.css';
+@import '../../assets/littlecloset/styles/main_styles.css';
+@import '../../assets/littlecloset/styles/responsive.css';
+
+
+
+.slide_home {
+    background-image:url('../../assets/littlecloset/images/home.jpg')
+}
+
+.box_1 {
+    background-image:url('../../assets/littlecloset/images/box_1.jpg')
+}
+
+.box_1_img {
+    background-image:url('../../assets/littlecloset/images/box_1_img.jpg')
+}
+
+.box_2 {
+    background-image:url('../../assets/littlecloset/images/box_2.jpg')
+}
+
+.box_2_img {
+    background-image:url('../../assets/littlecloset/images/box_2_img.jpg')
+}
+
+.box_3 {
+    background-image:url('../../assets/littlecloset/images/box_3.jpg')
+}
+
+.box_3_img {
+    background-image:url('../../assets/littlecloset/images/box_3_img.jpg')
+}
+
+.home {
+    width: 100%;
+    height: 100%;
+    padding-top: 79px;
+}
+
+.background_image[data-v-0af875b4] {
     position: absolute;
-    right: 10px;
-    top: 18px;
-  }
-  
-  .title {
-    font-size: 85px;
-  }
-  
-  .laravel {
-    color: #2e495e;
-  }
-  
-  .nuxt {
-    color: #00c48d;
-  }
+    top: 0;
+    left: 0;
+    width: 100vw;
+   // height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
